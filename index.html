@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Shuyu 蜀渔 – Autentic Hot Pot și bucătărie Sichuan în București. Rezervă acum și descoperă gusturi autentice din China." />
+  <meta name="keywords" content="restaurant chinezesc bucuresti, hot pot, sichuan, shuyu, meniu, rezervare" />
+  <title>Shuyu 蜀渔 | Fish & Hot Pot – București</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#home" class="nav-logo">
+      <span class="logo-zh">蜀渔</span>
+      <span class="logo-en">SHUYU</span>
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" data-ro="Acasă" data-en="Home">Acasă</a></li>
+      <li><a href="#menu" data-ro="Meniu" data-en="Menu">Meniu</a></li>
+      <li><a href="#rezervare" data-ro="Rezervare" data-en="Reservation">Rezervare</a></li>
+      <li><a href="#about" data-ro="Despre" data-en="About">Despre</a></li>
+      <li><a href="#reviews" data-ro="Recenzii" data-en="Reviews">Recenzii</a></li>
+      <li><a href="#gallery" data-ro="Galerie" data-en="Gallery">Galerie</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="lang-toggle" id="langToggle">EN</button>
+      <button class="chat-btn" id="openChat">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+        <span data-ro="Chat" data-en="Chat">Chat</span>
+      </button>
+      <button class="burger" id="burger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+  <div class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="hero-pattern"></div>
+  </div>
+  <div class="hero-content">
+    <div class="hero-badge fade-up" data-ro="Autentic Sichuan • București" data-en="Authentic Sichuan • Bucharest">Autentic Sichuan • București</div>
+    <h1 class="hero-title fade-up">
+      <span class="hero-zh">蜀渔</span>
+      <span class="hero-sub" data-ro="Autentic Hot Pot Chinezesc în București" data-en="Authentic Chinese Hot Pot in Bucharest">Autentic Hot Pot Chinezesc în București</span>
+    </h1>
+    <p class="hero-desc fade-up" data-ro="Savurează aromele intense ale bucătăriei Sichuan, peștele proaspăt și hot pot-ul tradițional, pregătite cu grijă de bucătari din inima Chinei." data-en="Savour the bold flavours of Sichuan cuisine, fresh fish and traditional hot pot, crafted by chefs from the heart of China.">
+      Savurează aromele intense ale bucătăriei Sichuan, peștele proaspăt și hot pot-ul tradițional, pregătite cu grijă de bucătari din inima Chinei.
+    </p>
+    <div class="hero-btns fade-up">
+      <a href="#menu" class="btn-primary" data-ro="Vezi Meniul" data-en="View Menu">Vezi Meniul</a>
+      <a href="#rezervare" class="btn-outline" data-ro="Fă o Rezervare" data-en="Make a Reservation">Fă o Rezervare</a>
+    </div>
+    <div class="hero-stats fade-up">
+      <div class="stat"><strong>10+</strong><span data-ro="Ani experiență" data-en="Years experience">Ani experiență</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><strong>4.5★</strong><span data-ro="Rating Google" data-en="Google Rating">Rating Google</span></div>
+      <div class="stat-divider"></div>
+      <div class="stat"><strong>80+</strong><span data-ro="Preparate" data-en="Dishes">Preparate</span></div>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span></span>
+  </div>
+</section>
+
+<!-- ===== POPULAR DISHES ===== -->
+<section class="popular-section reveal">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag" data-ro="Specialitățile Casei" data-en="Chef's Specials">Specialitățile Casei</div>
+      <h2 data-ro="Preparate Populare" data-en="Popular Dishes">Preparate Populare</h2>
+      <p data-ro="Cele mai iubite preparate ale noastre, gătite cu ingrediente proaspete și condimente autentice Sichuan." data-en="Our most beloved dishes, cooked with fresh ingredients and authentic Sichuan spices.">Cele mai iubite preparate ale noastre, gătite cu ingrediente proaspete și condimente autentice Sichuan.</p>
+    </div>
+    <div class="popular-grid">
+      <div class="pop-card reveal-card">
+        <div class="pop-img">
+          <img src="hotpot.jpg" alt="Hot Pot" loading="lazy" />
+        </div>
+        <div class="pop-info">
+          <h3 data-ro="Hot Pot" data-en="Hot Pot">Hot Pot</h3>
+          <p data-ro="Specialitate Sichuan" data-en="Sichuan Specialty">Specialitate Sichuan</p>
+          <div class="pop-price">194 RON</div>
+        </div>
+      </div>
+      <div class="pop-card reveal-card">
+        <div class="pop-img">
+          <img src="supadelegumemuratecucarne.jpg" alt="Chongqing Maoxuewang" loading="lazy" />
+        </div>
+        <div class="pop-info">
+          <h3 data-ro="Chongqing Maoxuewang" data-en="Chongqing Maoxuewang">Chongqing Maoxuewang</h3>
+          <p data-ro="Chongqing" data-en="Chongqing">Chongqing</p>
+          <div class="pop-price">194 RON</div>
+        </div>
+      </div>
+      <div class="pop-card reveal-card">
+        <div class="pop-img">
+          <img src="crevetisicalamarganguo.jpg" alt="Creveți & Calamar" loading="lazy" />
+        </div>
+        <div class="pop-info">
+          <h3 data-ro="Creveți & Calamar" data-en="Shrimp & Squid">Creveți & Calamar</h3>
+          <p data-ro="Fructe de mare" data-en="Seafood">Fructe de mare</p>
+          <div class="pop-price">170 RON</div>
+        </div>
+      </div>
+      <div class="pop-card reveal-card">
+        <div class="pop-img">
+          <img src="meat.jpg" alt="Carne" loading="lazy" />
+        </div>
+        <div class="pop-info">
+          <h3 data-ro="Miel La Grătar" data-en="Grilled Lamb">Miel La Grătar</h3>
+          <p data-ro="Specialitate" data-en="Specialty">Specialitate</p>
+          <div class="pop-price">244 RON</div>
+        </div>
+      </div>
+      <div class="pop-card reveal-card">
+        <div class="pop-img">
+          <img src="puiiutechongqing.jpg" alt="Pui Chongqing" loading="lazy" />
+        </div>
+        <div class="pop-info">
+          <h3 data-ro="Pui Chongqing" data-en="Chongqing Chicken">Pui Chongqing</h3>
+          <p data-ro="Principale" data-en="Mains">Principale</p>
+          <div class="pop-price">108 RON</div>
+        </div>
+      </div>
+      <div class="pop-card reveal-card">
+        <div class="pop-img">
+          <img src="noodles.jpg" alt="Noodles" loading="lazy" />
+        </div>
+        <div class="pop-info">
+          <h3 data-ro="Chongqing Noodles" data-en="Chongqing Noodles">Chongqing Noodles</h3>
+          <p data-ro="Noodles & Orez" data-en="Noodles & Rice">Noodles & Orez</p>
+          <div class="pop-price">59 RON</div>
+        </div>
+      </div>
+    </div>
+    <div class="center-btn">
+      <a href="#menu" class="btn-primary" data-ro="Vezi Meniul Complet" data-en="See Full Menu">Vezi Meniul Complet</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== MENU ===== -->
+<section id="menu" class="menu-section reveal">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag" data-ro="Bucătărie Autentică" data-en="Authentic Cuisine">Bucătărie Autentică</div>
+      <h2 data-ro="Meniu Complet" data-en="Full Menu">Meniu Complet</h2>
+    </div>
+
+    <div class="menu-controls">
+      <div class="menu-search-wrap">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" id="menuSearch" placeholder="Caută preparat..." data-placeholder-ro="Caută preparat..." data-placeholder-en="Search dish..." />
+      </div>
+      <div class="menu-filters" id="menuFilters">
+        <button class="filter-btn active" data-cat="all" data-ro="Toate" data-en="All">Toate</button>
+        <button class="filter-btn" data-cat="principale" data-ro="Principale" data-en="Mains">Principale</button>
+        <button class="filter-btn" data-cat="fructe-de-mare" data-ro="Fructe de Mare" data-en="Seafood">Fructe de Mare</button>
+        <button class="filter-btn" data-cat="carne" data-ro="Carne" data-en="Meat">Carne</button>
+        <button class="filter-btn" data-cat="aperitive" data-ro="Aperitive" data-en="Starters">Aperitive</button>
+        <button class="filter-btn" data-cat="noodles" data-ro="Noodles" data-en="Noodles">Noodles</button>
+        <button class="filter-btn" data-cat="sosuri" data-ro="Sosuri" data-en="Sauces">Sosuri</button>
+        <button class="filter-btn" data-cat="bauturi" data-ro="Băuturi" data-en="Drinks">Băuturi</button>
+      </div>
+    </div>
+
+    <div class="menu-list-container" id="menuGrid"></div>
+    <div class="center-btn" id="menuToggleWrap" style="margin-top: 40px; display: none;">
+      <button class="btn-outline" onclick="toggleFullMenu()" data-ro="Vezi Tot Meniul" data-en="See Full Menu">Vezi Tot Meniul</button>
+    </div>
+    <div class="no-results" id="noResults" style="display:none">
+      <span data-ro="Nu am găsit preparate." data-en="No dishes found.">Nu am găsit preparate.</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REZERVARE ===== -->
+<section id="rezervare" class="rezervare-section reveal">
+  <div class="rezervare-bg"></div>
+  <div class="container">
+    <div class="rezervare-inner">
+      <div class="rezervare-left">
+        <div class="section-tag" data-ro="Rezervați Acum" data-en="Book Now">Rezervați Acum</div>
+        <h2 data-ro="Fă o Rezervare" data-en="Make a Reservation">Fă o Rezervare</h2>
+        <p data-ro="Alegeți data, ora și numărul de persoane. Vă confirmăm rezervarea în cel mai scurt timp." data-en="Choose your date, time and party size. We'll confirm your reservation shortly.">Alegeți data, ora și numărul de persoane. Vă confirmăm rezervarea în cel mai scurt timp.</p>
+        <div class="rez-info">
+          <div class="rez-info-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span data-ro="Lun-Vin: 12:00 – 23:00 | Sâm-Dum: 11:00 – 24:00" data-en="Mon-Fri: 12:00 – 23:00 | Sat-Sun: 11:00 – 24:00">Lun-Vin: 12:00 – 23:00 | Sâm-Dum: 11:00 – 24:00</span>
+          </div>
+          <div class="rez-info-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.12 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91A16 16 0 0 0 15 15.91l.85-.85a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 17z"/></svg>
+            <span>+40 763 758 758</span>
+          </div>
+          <div class="rez-info-item">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span data-ro="Str. Exemplu nr. 10, Sector 1, București" data-en="10 Example St., Sector 1, Bucharest">Șoseaua Fundeni 204, 077086 București</span>
+          </div>
+        </div>
+      </div>
+      <div class="rezervare-right">
+        <form class="rez-form" id="rezForm" action="https://formspree.io/f/PLACEHOLDER_ENDPOINT" method="POST">
+          <div class="form-row">
+            <div class="form-group">
+              <label data-ro="Nume Complet" data-en="Full Name">Nume Complet</label>
+              <input type="text" id="rezNume" name="name" placeholder="Ion Popescu" required />
+            </div>
+            <div class="form-group">
+              <label data-ro="Telefon" data-en="Phone">Telefon</label>
+              <input type="tel" id="rezTel" name="phone" placeholder="+40 7xx xxx xxx" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label data-ro="Data" data-en="Date">Data</label>
+              <input type="date" id="rezData" name="date" required />
+            </div>
+            <div class="form-group">
+              <label data-ro="Ora" data-en="Time">Ora</label>
+              <select id="rezOra" name="time" required>
+                <option value="">Selectați ora</option>
+                <option>12:00</option><option>13:00</option><option>14:00</option>
+                <option>15:00</option><option>16:00</option><option>17:00</option>
+                <option>18:00</option><option>19:00</option><option>20:00</option>
+                <option>21:00</option><option>22:00</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label data-ro="Număr Persoane" data-en="Party Size">Număr Persoane</label>
+            <div class="persons-picker">
+              <button type="button" class="persons-btn" onclick="changePersons(-1)">−</button>
+              <span id="personsCount">2</span>
+              <input type="hidden" id="rezPersons" name="persons" value="2" />
+              <button type="button" class="persons-btn" onclick="changePersons(1)">+</button>
+              <span data-ro="persoane" data-en="guests">persoane</span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label data-ro="Mențiuni speciale (opțional)" data-en="Special requests (optional)">Mențiuni speciale (opțional)</label>
+            <textarea id="rezMentiuni" name="message" rows="2" placeholder="Alergii, preferințe, ocazii speciale..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width" data-ro="Confirmă Rezervarea" data-en="Confirm Reservation">Confirmă Rezervarea</button>
+        </form>
+        <div class="rez-success" id="rezSuccess" style="display:none">
+          <div class="rez-success-icon">✓</div>
+          <h3 data-ro="Rezervare Confirmată!" data-en="Reservation Confirmed!">Rezervare Confirmată!</h3>
+          <p id="rezSuccessMsg"></p>
+          <button class="btn-outline" onclick="resetReservation()" data-ro="Fă o nouă rezervare" data-en="Make another reservation">Fă o nouă rezervare</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="about-section reveal">
+  <div class="container">
+    <div class="about-inner">
+      <div class="about-visual">
+        <div class="about-img-main">
+          <div class="about-img-placeholder">
+            <span class="about-zh-big">蜀渔</span>
+          </div>
+        </div>
+        <div class="about-img-accent" style="padding: 14px 24px;">
+          <span class="about-year" style="font-size:1.2rem; display:block; margin-bottom: 2px;">EST.</span>
+          <span class="about-year">2013</span>
+        </div>
+        <div class="about-badge-float">
+          <span data-ro="Autentic" data-en="Authentic">Autentic</span>
+          <span data-ro="Sichuan" data-en="Sichuan">Sichuan</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <div class="section-tag" data-ro="Povestea Noastră" data-en="Our Story">Povestea Noastră</div>
+        <h2 data-ro="Mai mult decât un restaurant" data-en="More than a restaurant">Mai mult decât un restaurant</h2>
+        <p data-ro="Shuyu s-a născut din dragostea pentru aromele profunde ale provinciei Sichuan, una dintre cele mai renumite culturi culinare din lume. Fondatoarea, Chen Wei, a adus în București rețete tradiționale transmise din generație în generație, combinate cu tehnici moderne și ingrediente proaspete aduse direct din China." data-en="Shuyu was born from a passion for the deep flavours of Sichuan province, one of the world's most celebrated culinary cultures. Our founder Chen Wei brought to Bucharest traditional recipes passed down through generations, combined with modern techniques and fresh ingredients sourced directly from China.">
+          Shuyu s-a născut din dragostea pentru aromele profunde ale provinciei Sichuan, una dintre cele mai renumite culturi culinare din lume. Fondatoarea, Chen Wei, a adus în București rețete tradiționale transmise din generație în generație, combinate cu tehnici moderne și ingrediente proaspete aduse direct din China.
+        </p>
+        <p data-ro="Hot pot-ul nostru folosește un bulion gătit timp de 12 ore, îmbogățit cu piper Sichuan, ardei iuți uscați și mai mult de 20 de condimente. Fiecare masă la Shuyu este o călătorie în inima Chinei." data-en="Our hot pot uses a broth simmered for 12 hours, enriched with Sichuan peppercorn, dried chillies and over 20 spices. Every meal at Shuyu is a journey to the heart of China.">
+          Hot pot-ul nostru folosește un bulion gătit timp de 12 ore, îmbogățit cu piper Sichuan, ardei iuți uscați și mai mult de 20 de condimente. Fiecare masă la Shuyu este o călătorie în inima Chinei.
+        </p>
+        <div class="about-pillars">
+          <div class="pillar">
+            <span data-ro="Condimente autentice" data-en="Authentic spices">Condimente autentice</span>
+          </div>
+          <div class="pillar">
+            <span data-ro="Pește proaspăt zilnic" data-en="Fresh fish daily">Pește proaspăt zilnic</span>
+          </div>
+          <div class="pillar">
+            <span data-ro="Bucătari din Sichuan" data-en="Chefs from Sichuan">Bucătari din Sichuan</span>
+          </div>
+          <div class="pillar">
+            <span data-ro="Ingrediente naturale" data-en="Natural ingredients">Ingrediente naturale</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== REVIEWS ===== -->
+<section id="reviews" class="reviews-section reveal">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag" data-ro="Ce Spun Clienții" data-en="What Clients Say">Ce Spun Clienții</div>
+      <h2 data-ro="Recenzii" data-en="Reviews">Recenzii</h2>
+      <div class="overall-rating">
+        <div class="stars-big">★★★★<span class="half-star">★</span></div>
+        <div class="rating-num">4.5</div>
+        <div class="rating-sub" data-ro="din 5 – bazat pe 340+ recenzii" data-en="out of 5 – based on 340+ reviews">din 5 – bazat pe 340+ recenzii</div>
+      </div>
+    </div>
+    <div class="reviews-slider" id="reviewsSlider">
+      <div class="reviews-track" id="reviewsTrack">
+        <!-- injected by JS -->
+      </div>
+    </div>
+    <div class="slider-dots" id="sliderDots"></div>
+    <div class="slider-arrows">
+      <button class="arrow-btn" id="prevBtn">←</button>
+      <button class="arrow-btn" id="nextBtn">→</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="gallery" class="gallery-section reveal">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag" data-ro="Atmosferă" data-en="Atmosphere">Atmosferă</div>
+      <h2 data-ro="Galerie" data-en="Gallery">Galerie</h2>
+    </div>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </div>
+</section>
+
+<!-- ===== CONTACT / EMAIL ===== -->
+<section id="contact" class="contact-section reveal">
+  <div class="container">
+    <div class="section-header">
+      <div class="section-tag" data-ro="Scrie-ne" data-en="Write to Us">Scrie-ne</div>
+      <h2 data-ro="Contact" data-en="Contact">Contact</h2>
+      <p data-ro="Ai o întrebare, o sugestie sau vrei să știi mai multe? Trimite-ne un mesaj." data-en="Have a question or suggestion? Send us a message.">Ai o întrebare, o sugestie sau vrei să știi mai multe? Trimite-ne un mesaj.</p>
+    </div>
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/PLACEHOLDER_ENDPOINT" method="POST">
+      <div class="form-row">
+        <div class="form-group">
+          <label data-ro="Nume" data-en="Name">Nume</label>
+          <input type="text" name="name" placeholder="Ion Popescu" required />
+        </div>
+        <div class="form-group">
+          <label data-ro="Email" data-en="Email">Email</label>
+          <input type="email" name="email" placeholder="email@exemplu.ro" required />
+        </div>
+      </div>
+      <div class="form-group">
+        <label data-ro="Mesaj" data-en="Message">Mesaj</label>
+        <textarea name="message" rows="4" placeholder="Scrieți mesajul dvs. aici..." required></textarea>
+      </div>
+      <button type="submit" class="btn-primary" data-ro="Trimite Mesajul" data-en="Send Message">Trimite Mesajul</button>
+      <div id="contactSuccess" style="display:none" class="contact-success">
+        <span data-ro="Mesaj trimis cu succes! Vă vom răspunde în curând." data-en="Message sent! We'll reply soon.">Mesaj trimis cu succes! Vă vom răspunde în curând.</span>
+      </div>
+    </form>
+  </div>
+</section>
+
+<div class="lightbox" id="lightbox" style="display:none">
+  <button class="lightbox-close" id="lightboxClose">✕</button>
+  <div class="lightbox-inner" id="lightboxInner"></div>
+  <button class="lightbox-nav prev" id="lightboxPrev">←</button>
+  <button class="lightbox-nav next" id="lightboxNext">→</button>
+</div>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-zh">蜀渔</span>
+            <span class="logo-en">SHUYU</span>
+          </div>
+          <p data-ro="Autentic Hot Pot Chinezesc și bucătărie Sichuan în inima Bucureștiului." data-en="Authentic Chinese Hot Pot and Sichuan cuisine in the heart of Bucharest.">Autentic Hot Pot Chinezesc și bucătărie Sichuan în inima Bucureștiului.</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/p/ShuYu-100092436248789/?locale=ro_RO" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+            <a href="https://www.instagram.com/restaurant_shuyu?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+            <a href="https://www.tiktok.com/discover/shuyu-hotpot-bucharest" aria-label="TikTok" target="_blank" rel="noopener noreferrer"><svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.19 8.19 0 004.79 1.54V6.78a4.85 4.85 0 01-1.02-.09z"/></svg></a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h4 data-ro="Navigare" data-en="Navigation">Navigare</h4>
+          <ul>
+            <li><a href="#home" data-ro="Acasă" data-en="Home">Acasă</a></li>
+            <li><a href="#menu" data-ro="Meniu" data-en="Menu">Meniu</a></li>
+            <li><a href="#rezervare" data-ro="Rezervare" data-en="Reservation">Rezervare</a></li>
+            <li><a href="#about" data-ro="Despre noi" data-en="About us">Despre noi</a></li>
+            <li><a href="#gallery" data-ro="Galerie" data-en="Gallery">Galerie</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h4 data-ro="Contact" data-en="Contact">Contact</h4>
+          <ul>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              Șoseaua Fundeni 204, 077086 București
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.12 2 2 0 0 1 3.6 1h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 8.91A16 16 0 0 0 15 15.91l.85-.85a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 17z"/></svg>
+              <a href="tel:+40763758758">0763 758 758</a>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <a href="#contact">contact@shuyu.ro</a>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span data-ro="Lun-Vin: 12:00-23:00" data-en="Mon-Fri: 12:00-23:00">Lun-Vin: 12:00-23:00</span>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span data-ro="Sâm-Dum: 11:00-24:00" data-en="Sat-Sun: 11:00-24:00">Sâm-Dum: 11:00-24:00</span>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-map-col">
+          <h4 data-ro="Locație" data-en="Location">Locație</h4>
+          <div class="map-embed">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91462.97407582218!2d25.97194!3d44.43993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58125cbcbf4f6e82!2sBucure%C8%99ti!5e0!3m2!1sro!2sro!4v1680000000000"
+              width="100%" height="160" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <p>© 2025 Shuyu 蜀渔 Fish & Hot Pot. <span data-ro="Toate drepturile rezervate." data-en="All rights reserved.">Toate drepturile rezervate.</span></p>
+      <p class="footer-zh-deco">鱼跃千里 · 味达天下</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== CHAT WIDGET ===== -->
+<div class="chat-widget" id="chatWidget" style="display:none">
+  <div class="chat-header">
+    <div class="chat-avatar">蜀</div>
+    <div>
+      <div class="chat-name">Shuyu Assistant</div>
+      <div class="chat-status" data-ro="Online acum" data-en="Online now">Online acum</div>
+    </div>
+    <button class="chat-close" id="closeChat">✕</button>
+  </div>
+  <div class="chat-body" id="chatBody">
+    <div class="chat-msg bot">
+      <span data-ro="Bună! Sunt asistentul Shuyu. Cu ce vă pot ajuta? Puteți întreba despre meniu, program, rezervări sau locație." data-en="Hello! I'm the Shuyu assistant. How can I help? Ask me about our menu, hours, reservations or location.">Bună! Sunt asistentul Shuyu. Cu ce vă pot ajuta? Puteți întreba despre meniu, program, rezervări sau locație.</span>
+    </div>
+    <div class="chat-quick-btns" id="quickBtns">
+      <button onclick="quickMsg('program')" data-ro="Program" data-en="Hours">Program</button>
+      <button onclick="quickMsg('meniu')" data-ro="Meniu" data-en="Menu">Meniu</button>
+      <button onclick="quickMsg('rezervare')" data-ro="Rezervare" data-en="Reservation">Rezervare</button>
+      <button onclick="quickMsg('locatie')" data-ro="Locație" data-en="Location">Locație</button>
+    </div>
+  </div>
+  <div class="chat-input-row">
+    <input type="text" id="chatInput" placeholder="Scrieți un mesaj..." data-placeholder-ro="Scrieți un mesaj..." data-placeholder-en="Type a message..." />
+    <button id="chatSend">→</button>
+  </div>
+</div>
+
+<div class="chat-fab" id="chatFab">
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
